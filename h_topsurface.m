@@ -1,4 +1,6 @@
 function h = h_topsurface(T)
+% Returns the heat transfer coeff for the mantel surface using
+% dimenssionless numbers Ra, Nu
 global top_A beakerinnerdim Tinf
 
 Tfilm = (T+Tinf)/2;

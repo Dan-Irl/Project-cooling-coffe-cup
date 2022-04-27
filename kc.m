@@ -1,5 +1,6 @@
 function kc = kc(T)
-%calcualtes the mass transfer coeff
+%calcualtes the mass transfer coeff for the top surface
+
 global Tinf
 
 Tfilm = (T+Tinf)/2;

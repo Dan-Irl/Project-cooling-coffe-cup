@@ -1,4 +1,6 @@
 function h = h_mantel(T,Tfilm,m)
+% Returns the heat transfer coeff for the mantel surface using
+% dimenssionless numbers Ra, Nu
 global Tinf
 
 %Here T represents the film temperature
