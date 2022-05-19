@@ -1,10 +1,10 @@
-function dy = sysdiff(t,Y)
+function dy = sysdiff_cupdesign(t,Y)
 % Returns the coupled equation system
 
 
 dy = [0; 0];
 
-top = topsurface(t,Y);
+top = topsurface_cupdesign(t,Y);
 
 % Sum of heat flow rate
 dy(1) = (mantelsurface(t,Y)+ top(2));
